@@ -26,4 +26,32 @@ public class Solution {
         
         return currtail;
     }
+    public ListNode RotateRight2(ListNode head, int k) {
+        ListNode slow=head;
+        ListNode fast = head;
+        if (head==null) return null;
+        ListNode temp=head;
+        int count=0;
+        while(temp!=null){
+            temp=temp.next;
+            count++;
+        }
+        k=k%count;
+        
+        for(int i=0;i<k;i++){
+            fast=fast.next;
+        }
+        
+        while(fast.next!=null){
+            fast=fast.next;
+            slow=slow.next;
+        }
+        //Console.WriteLine(k+" "+fast.val+" "+slow.val+" "+k);
+        fast.next=head;
+        ListNode result=slow.next;
+        slow.next=null;
+        
+        return result;
+    }
+}
 }
