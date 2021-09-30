@@ -1,3 +1,4 @@
+//works both for perfectly binary and a binary tree
 class Solution {
     public Node connect(Node root) {
         if(root==null) return root;
