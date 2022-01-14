@@ -4,7 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "Launch RegionsCut",
+            "request": "launch",
+            "mainClass": "graph.RegionsCut",
+            "projectName": "leetCode_e51fb56"
+        },
         {
             "name": "g++ - Build and debug active file",
             "type": "cppdbg",
