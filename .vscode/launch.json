@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RoomAndKey",
+            "request": "launch",
+            "mainClass": "graph.RoomAndKey",
+            "projectName": "leetCode_e51fb56"
+        },
+        {
+            "type": "java",
+            "name": "Launch RoomAndKey",
+            "request": "launch",
+            "mainClass": "RoomAndKey",
+            "projectName": "leetCode_e51fb56"
+        },
+        {
+            "type": "java",
             "name": "Launch RegionsCut",
             "request": "launch",
             "mainClass": "graph.RegionsCut",
