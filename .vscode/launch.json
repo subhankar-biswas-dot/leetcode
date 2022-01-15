@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ConnectedNetwork",
+            "request": "launch",
+            "mainClass": "graph.ConnectedNetwork",
+            "projectName": "leetCode_e51fb56"
+        },
+        {
+            "type": "java",
             "name": "Launch ReorderRoutes",
             "request": "launch",
             "mainClass": "graph.ReorderRoutes",
