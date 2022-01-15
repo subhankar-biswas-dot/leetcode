@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StonesRemoved",
+            "request": "launch",
+            "mainClass": "graph.StonesRemoved",
+            "projectName": "leetCode_e51fb56"
+        },
+        {
+            "type": "java",
             "name": "Launch ConnectedNetwork",
             "request": "launch",
             "mainClass": "graph.ConnectedNetwork",
