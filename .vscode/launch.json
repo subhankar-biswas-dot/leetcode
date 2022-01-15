@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReorderRoutes",
+            "request": "launch",
+            "mainClass": "graph.ReorderRoutes",
+            "projectName": "leetCode_e51fb56"
+        },
+        {
+            "type": "java",
             "name": "Launch RoomAndKey",
             "request": "launch",
             "mainClass": "graph.RoomAndKey",
