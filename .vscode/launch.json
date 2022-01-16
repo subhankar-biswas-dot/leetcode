@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LoudAndRich",
+            "request": "launch",
+            "mainClass": "graph.LoudAndRich",
+            "projectName": "leetCode_e51fb56"
+        },
+        {
+            "type": "java",
             "name": "Launch MaximumNetworkRank",
             "request": "launch",
             "mainClass": "graph.MaximumNetworkRank",
