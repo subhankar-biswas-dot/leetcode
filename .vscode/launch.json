@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch safeNode",
+            "request": "launch",
+            "mainClass": "graph.safeNode",
+            "projectName": "leetCode_e51fb56"
+        },
+        {
+            "type": "java",
             "name": "Launch LoudAndRich",
             "request": "launch",
             "mainClass": "graph.LoudAndRich",
