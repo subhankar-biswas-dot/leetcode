@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Flloyd_Warshall",
+            "request": "launch",
+            "mainClass": "graph.Flloyd_Warshall",
+            "projectName": "leetCode_e51fb56"
+        },
+        {
+            "type": "java",
             "name": "Launch safeNode",
             "request": "launch",
             "mainClass": "graph.safeNode",
