@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FlowerPlanting",
+            "request": "launch",
+            "mainClass": "graph.FlowerPlanting",
+            "projectName": "leetCode_e51fb56"
+        },
+        {
+            "type": "java",
             "name": "Launch Flloyd_Warshall",
             "request": "launch",
             "mainClass": "graph.Flloyd_Warshall",
